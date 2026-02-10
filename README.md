@@ -36,6 +36,21 @@ Client (Browser) → Amazon S3 Static Website Endpoint → HTML Objects
 ## Live Website
 http://krishna-static-site-001.s3-website.ap-south-1.amazonaws.com/
 
+## Screenshots
+Below are screenshots demonstrating the configuration and deployment of the project:
+
+### S3 Static Website Configuration
+![S3 Static Website Hosting](screenshots/s3-static-hosting.png)
+
+### S3 Bucket Policy (Public Read Access)
+![Bucket Policy](screenshots/bucket-policy.png)
+
+### IAM User with Least-Privilege Permissions
+![IAM User Permissions](screenshots/iam-user-permissions.png)
+
+### Live Website Output
+![Live Website](screenshots/live-website.png)
+
 ## Key Learnings
 - Differences between AWS root user and IAM users
 - Importance of least-privilege access control
